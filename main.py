@@ -43,8 +43,6 @@ def pedir_op(numero):
     return pedir_op(numero)
 
 
-
-
 def potencia(numero):
     base = int(numero)
     print('Insira o expoente')
@@ -54,12 +52,10 @@ def potencia(numero):
         for count in range(int(expo)):
             potenciaResult *= base
             count += 1
-    
         return potenciaResult
     else:
         print("Este expoente não é valido")
         return potencia(numero)
-        
 
 def raiz(numero):
 
@@ -82,17 +78,10 @@ def percentagem(numero):
     print(f'{perc} % de {value} é = {result}')
 
 
-
-
 def resultado(conta) :
     if(len(conta)>1):
        print(eval(conta[0:len(conta)-1]))
     print('Resultado: '+ conta)
-
-
-
-
-
 
 
 def pedir_conta():
@@ -117,11 +106,8 @@ def pedir_conta():
                         numero= pedir_numero()
                     operacao = op_diferente(operacao)
 
-                    print(conta)
 
                 conta = conta + str(numero) + str(operacao)
-
-
                 print(conta)
 
                 if operacao == '%':
