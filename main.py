@@ -15,7 +15,7 @@ def informacoes_menu():
     print('* Multiplicação')
     print('r  raiz quadrada')
     print('% Percentagem')
-    print('= ')
+    print('= Igual')
 
 def eNumero ( valor ) :
     if not valor.strip().replace('-', '').replace('+', '').replace('.', '').isdigit():
